@@ -1,51 +1,98 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Indian Food</title>
-		<meta charset="UTF-8">
-		<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-		<style>
-			body{
-				background-color:yellow;
-				color:brown;
-				font:Arial;
+        #html-body{
+					border:20px solid rgb(12, 189, 209);
+					width:461px;
+					padding:15px;
+					height:605px;
+					overflow:auto;
+					margin:auto;
+					border-top:20px solid green;
+					border-bottom:20px solid blue;
+				  	overflow:auto;
 			}
-			.headings{
-				font-family:"Sofia";
-				color:red;
+			h1{
+            color:blue;
+			background-color:orange;
+            }
+            
+        h2 {
+            color: yellow;
+			background-color: purple;
+			font-family:"Helvetica";
+        }  
+        
+        body {
+            background-color: black;
+        }
+		#song-lyrics {
+			background-color:rgb(115, 3, 3);
+			font-family:"monospace";
+			font-size:13.5px;
+			font-style:italic;
+			text-align:center;
+			color:rgb(26, 255, 0);
 			}
-			hr{
-				color:green;
-				height:6px;
-				width:70%;
-				background-color:green;
+		a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration-line: underline;
+  			text-decoration-style: wavy;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration-line: underline;
+  			text-decoration-style: wavy;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration-line: underline;
+  			text-decoration-style: double;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration-line: underline;
+  			text-decoration-style: wavy;
+        }
+		ul {
+			color:rgb(65, 224, 216);
 			}
-			#menu {
-				font-weight:bold;
-				text-decoration:underline;
-				text-decoration-style:wavy;
+		ol {
+			color:rgb(65, 224, 216);
 			}
-			#pls-center{
+		p  {
+			color:rgb(65, 224, 216);
+			font-family:sans-serif;
 			}
-		</style>
-	</head>
-	<body>
-		
-		<center>
-		<h1 class="headings"><em>THE GREAT INDIAN RESTARAUNT</em></h1>
-		<hr noshade>
-		<h4 class="headings"><em>Visit us for Mouth Watering Dishes</em></h4>
-		<hr noshade>
-		<font size="4">
-		<p>We are one of the best fine dining restaurants in Delhi. Here the traditional cuisines are finely blended with the modern taste, The dishes are innovative and delicous. The interiors of the restaraunt are luxurious and comfortable.<br>The cuisines available on the menu list are:</p>
-		<div>
-		<p id="menu">1.Mughalai <br>
-		2.South Indian <br>
-		3.Punjabi <br>
-		4.Bengali <br>
-		5.Gujarati <br>
-			6.Rajasthani<br></p></div>
-		<p>Great Taste Restaraunt is the ideal place whether entertaining friends or buisness associates.</p>
-			<hr noshade> </font></center>
-	</body>
-</html>
+		#pictures{
+			background-color:rgb(130, 126, 126);
+			width:180px;
+			height:200px;
+			overflow:auto;
+			margin-left:5px;
+			}
+			/* width */
+		::-webkit-scrollbar {
+ 			 width: 5px;
+			}
+
+			/* Track */
+		::-webkit-scrollbar-track {
+  			box-shadow: inset 0 0 5px grey; 
+  			border-radius: 10px;
+			}
+ 
+			/* Handle */
+		::-webkit-scrollbar-thumb {
+			background:#51c951; 
+			border-radius: 10px;
+			}
+
+			/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+  			background: #b30000; 
+			}
